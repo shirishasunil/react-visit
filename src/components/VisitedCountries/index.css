@@ -1,0 +1,33 @@
+.visited-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+  max-width: 350px;
+  max-height: 300px;
+}
+.image {
+  height: 70%;
+  width: 100%;
+}
+.country-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5px;
+}
+.remove-btn {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid #94a3b8;
+  margin: 5px;
+  outline: none;
+  cursor: pointer;
+}
